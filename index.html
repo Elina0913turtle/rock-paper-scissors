@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors - UI Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>✊ ✋ ✌️ 猜拳大决战</h1>
+
+    <!-- 点击出招按钮 -->
+    <div class="buttons">
+      <button id="rock">✊ 石头 (Rock)</button>
+      <button id="paper">✋ 布 (Paper)</button>
+      <button id="scissors">✌️ 剪刀 (Scissors)</button>
+    </div>
+
+    <!-- 动态战报与比分显示区 -->
+    <div class="results">
+      <p id="round-result">点击上方按钮开始游戏！</p>
+      <div class="score-board">
+        <p>玩家得分: <span id="player-score">0</span></p>
+        <p>电脑得分: <span id="computer-score">0</span></p>
+      </div>
+      <h2 id="final-winner"></h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>git add .
+git commit -m "feat: add DOM interface and event listeners for Rock Paper Scissors UI"
+git push
